@@ -1,0 +1,5 @@
+CREATE TABLE Users (
+    Username NVARCHAR(50) PRIMARY KEY,
+    Email NVARCHAR(100) NOT NULL,
+    Phone NVARCHAR(10) NOT NULL
+);
